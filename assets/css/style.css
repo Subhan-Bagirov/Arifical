@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.roboto-thin {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .roboto-light {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .roboto-medium {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .roboto-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+  
+  .roboto-black {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+
+  
+    header{
+        background-color: #0a121f;
+    }
+    .introduction{
+        background-color: #08101e;
+        
+}
+    .shirket{
+        background-color:#08101e;
+    }
+
+
+.book-a-call{
+    background-color:#3a68b8;
+    width: 160px;
+    height: 57px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 20px;
+}
+.book-a-called{
+    background-color:#3a68b8;
+    width: 160px;
+    height: 57px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 20px;
+}
+    
+
+.intro-left-side h1{
+    font-size: 35px;
+    color:#fff;
+}
+.intro-left-side p1{
+    font-size: 13px;
+    color: #3a68b8
+}
+.intro-left-side p2{
+    font-size: 13px;
+    color: #b5b7bb
+}
+
+
+.shirket img{
+    width: 214.64px;
+    margin-left: 90px;
+}
+
+@media(min-width:375px) and (max-width:576px){
+    .intro-left-side h1{
+        font-size: 50px;
+    }
+}
+
+@media(min-width:768px){
+    .intro-left-side h1{
+        font-size: 35px;
+        color:#fff;
+    }
+    .intro-left-side p1{
+        font-size: 12px;
+        color: #3a68b8
+    }
+    .intro-left-side p2{
+        font-size: 12px;
+        color: #b5b7bb
+    }
+    
+}
+@media(min-width:992px){
+    .intro-left-side h1{
+        font-size: 55px;
+        color:#fff;
+    }
+    .intro-left-side p1{
+        font-size: 18px;
+        color: #3a68b8
+    }
+    .intro-left-side p2{
+        font-size: 18px;
+        color: #b5b7bb
+    }
+}
+.intro-left-side{
+    padding-top: 70px;
+}
+.intro-right-side{
+    padding-top: 70px;
+}
